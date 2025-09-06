@@ -18,7 +18,7 @@ const FutureSection = () => {
     {
       year: "2030",
       title: "Agritech Ecosystem",
-      goals: ["100,000 trees", "Technology licensing", "Industry transformation"],
+      goals: ["100k+ trees", "Technology licensing", "Industry transformation"],
       status: "Vision"
     }
   ];

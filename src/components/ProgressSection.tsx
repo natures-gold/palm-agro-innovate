@@ -5,7 +5,7 @@ const ProgressSection = () => {
     {
       number: "1,500",
       label: "Palm Trees Planted",
-      description: "Healthy, mature trees ready for harvest",
+      description: "Maturing in 2 years, ready for harvest",
       icon: "🌴"
     },
     {
@@ -30,7 +30,7 @@ const ProgressSection = () => {
 
   const futureGoals = [
     {
-      metric: "100,000",
+      metric: "100k+",
       label: "Trees (10-year goal)",
       revenue: "$2.5M - $3.5M annually"
     }
@@ -70,7 +70,7 @@ const ProgressSection = () => {
           <h3 className="text-2xl font-bold mb-4">10-Year Vision</h3>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 items-center">
             <div>
-              <div className="text-4xl font-bold text-farm-yellow">100,000</div>
+              <div className="text-4xl font-bold text-farm-yellow">100k+</div>
               <div className="text-lg">Trees</div>
             </div>
             <div className="text-2xl font-light">→</div>
