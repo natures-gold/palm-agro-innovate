@@ -17,24 +17,46 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 222.2 84% 4.9%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
-
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    /* Brand Colors - Green & Yellow */
+    --primary: 142 76% 36%;
+    --primary-foreground: 0 0% 100%;
+    
+    --secondary: 45 93% 47%;
+    --secondary-foreground: 222.2 84% 4.9%;
 
     --muted: 210 40% 96.1%;
     --muted-foreground: 215.4 16.3% 46.9%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --accent: 45 93% 47%;
+    --accent-foreground: 222.2 84% 4.9%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
     --border: 214.3 31.8% 91.4%;
     --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --ring: 142 76% 36%;
+
+    /* Custom Brand Tokens */
+    --farm-green: 142 76% 36%;
+    --farm-green-light: 142 76% 50%;
+    --farm-green-dark: 142 76% 25%;
+    --farm-yellow: 45 93% 47%;
+    --farm-yellow-light: 45 93% 60%;
+    
+    /* Gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(var(--farm-green)), hsl(var(--farm-green-light)));
+    --gradient-accent: linear-gradient(135deg, hsl(var(--farm-yellow)), hsl(var(--farm-yellow-light)));
+    --gradient-hero: linear-gradient(135deg, hsl(var(--farm-green)) 0%, hsl(var(--farm-green-light)) 50%, hsl(var(--farm-yellow)) 100%);
+    
+    /* Shadows */
+    --shadow-primary: 0 10px 30px -10px hsl(var(--farm-green) / 0.3);
+    --shadow-accent: 0 10px 30px -10px hsl(var(--farm-yellow) / 0.3);
+    --shadow-elegant: 0 20px 60px -10px hsl(var(--farm-green) / 0.2);
+    
+    /* Animations */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-spring: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 
     --radius: 0.5rem;
 
