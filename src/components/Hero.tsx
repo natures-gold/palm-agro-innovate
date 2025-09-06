@@ -63,7 +63,7 @@ const Hero = () => {
           <div className="flex justify-center lg:justify-end">
             <div className="bg-white/10 backdrop-blur-sm rounded-3xl p-12 shadow-elegant">
               <img 
-                src="/lovable-uploads/4e05ac74-23e3-4e52-b875-7d33842d5061.png"
+                src="/lovable-uploads/706b224f-e1ec-4805-b446-718804665d85.png"
                 alt="Nature's Gold Farm Logo"
                 className="w-80 h-80 object-contain"
               />
