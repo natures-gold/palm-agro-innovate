@@ -96,7 +96,7 @@ const FutureSection = () => {
             <Button variant="secondary" size="lg" className="bg-white text-farm-green hover:bg-gray-100">
               Investment Opportunities
             </Button>
-            <Button variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-farm-green">
+            <Button variant="secondary" size="lg" className="bg-white text-farm-green hover:bg-gray-100">
               Technology Partnership
             </Button>
           </div>
