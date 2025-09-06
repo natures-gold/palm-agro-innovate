@@ -21,7 +21,7 @@ const ProgressSection = () => {
       icon: "🌾"
     },
     {
-      number: "₦250M - ₦300M",
+      number: "$200K - $250K",
       label: "Projected Annual Revenue",
       description: "Conservative estimates for current operations",
       icon: "💰"
@@ -32,7 +32,7 @@ const ProgressSection = () => {
     {
       metric: "100,000",
       label: "Trees (10-year goal)",
-      revenue: "₦3.2B - ₦4.3B annually"
+      revenue: "$2.5M - $3.5M annually"
     }
   ];
 
@@ -75,7 +75,7 @@ const ProgressSection = () => {
             </div>
             <div className="text-2xl font-light">→</div>
             <div>
-              <div className="text-3xl font-bold text-farm-yellow">₦3.2B - ₦4.3B</div>
+              <div className="text-3xl font-bold text-farm-yellow">$2.5M - $3.5M</div>
               <div className="text-lg">Annual Revenue</div>
             </div>
           </div>
