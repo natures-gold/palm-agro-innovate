@@ -6,16 +6,12 @@ const Navigation = () => {
       <div className="max-w-7xl mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           {/* Logo */}
-          <div className="flex items-center space-x-3">
+          <div className="flex items-center">
             <img 
               src="/lovable-uploads/4e05ac74-23e3-4e52-b875-7d33842d5061.png"
               alt="Nature's Gold Farm"
               className="w-12 h-12 object-contain"
             />
-            <div>
-              <div className="text-xl font-bold text-farm-green">NATURE'S</div>
-              <div className="text-sm font-medium text-farm-green">GOLD FARM</div>
-            </div>
           </div>
 
           {/* Navigation Links */}
