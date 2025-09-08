@@ -40,14 +40,6 @@ const Hero = () => {
               <Button variant="hero-outline" size="lg" className="text-lg px-8 py-4">
                 Our Technology
               </Button>
-              <Button 
-                variant="hero-outline" 
-                size="lg" 
-                className="text-lg px-8 py-4"
-                onClick={() => window.open("https://calendly.com/naturesgoldfarm/partnership", "_blank")}
-              >
-                Partner with Us
-              </Button>
             </div>
 
             {/* Quick Stats */}
