@@ -23,9 +23,11 @@ const Navigation = () => {
           </div>
 
           {/* CTA Button */}
-          <Button variant="farm" className="hidden sm:inline-flex">
-            Contact Us
-          </Button>
+          <a href="/contact">
+            <Button variant="farm" className="hidden sm:inline-flex">
+              Contact Us
+            </Button>
+          </a>
 
           {/* Mobile Menu Button */}
           <Button variant="ghost" size="icon" className="md:hidden">

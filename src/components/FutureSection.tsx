@@ -5,14 +5,26 @@ const FutureSection = () => {
   const milestones = [
     {
       year: "2025",
-      title: "Expansion Phase",
-      goals: ["50,000 trees planted", "Advanced AI deployment", "First major harvest"],
+      title: "Current Phase",
+      goals: ["1,500 trees planted", "Foundation establishment", "Initial operations"],
       status: "In Progress"
     },
     {
+      year: "2026",
+      title: "Growth Phase",
+      goals: ["7,000 trees planted", "Advanced AI deployment", "Scaling operations"],
+      status: "Planned"
+    },
+    {
       year: "2027",
-      title: "Market Leadership",
-      goals: ["Full refinery operations", "Brand development", "Regional distribution"],
+      title: "Expansion Phase",
+      goals: ["50,000 trees planted", "Market expansion", "Regional presence"],
+      status: "Planned"
+    },
+    {
+      year: "2028",
+      title: "Refinery Operations",
+      goals: ["Full refinery operations", "Brand development", "Processing facility"],
       status: "Planned"
     },
     {

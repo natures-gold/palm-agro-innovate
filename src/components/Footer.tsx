@@ -48,7 +48,7 @@ const Footer = () => {
             <h4 className="text-lg font-semibold mb-4">Contact Us</h4>
             <div className="space-y-2 text-gray-200">
               <p>info@naturesgoldfarm.com</p>
-              <p>+234 (0) 800 FARM-TECH</p>
+              <p>+2347033262541</p>
               <p>Lagos, Nigeria</p>
             </div>
           </div>
