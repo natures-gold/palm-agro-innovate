@@ -156,7 +156,11 @@ const Contact = () => {
                   <p className="text-gray-600 mb-4">
                     Interested in sustainable palm oil farming investments? We'd love to discuss opportunities with you.
                   </p>
-                  <Button variant="outline" className="border-farm-green text-farm-green hover:bg-farm-green hover:text-white">
+                  <Button 
+                    variant="outline" 
+                    className="border-farm-green text-farm-green hover:bg-farm-green hover:text-white"
+                    onClick={() => window.open("https://calendly.com/naturesgoldfarm/meeting", "_blank")}
+                  >
                     Schedule a Meeting
                   </Button>
                 </CardContent>
