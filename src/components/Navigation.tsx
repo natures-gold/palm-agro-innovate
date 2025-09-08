@@ -3,14 +3,14 @@ import { Button } from "@/components/ui/button";
 const Navigation = () => {
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-sm border-b border-gray-200 shadow-sm">
-      <div className="max-w-7xl mx-auto px-6 py-4">
+      <div className="max-w-7xl mx-auto px-6 py-2">
         <div className="flex items-center justify-between">
           {/* Logo */}
           <a href="/" className="flex items-center hover:opacity-80 transition-opacity">
             <img 
               src="/lovable-uploads/4e05ac74-23e3-4e52-b875-7d33842d5061.png"
               alt="Nature's Gold Farm"
-              className="w-16 h-16 object-contain drop-shadow-md"
+              className="w-12 h-12 object-contain drop-shadow-md"
             />
           </a>
 
