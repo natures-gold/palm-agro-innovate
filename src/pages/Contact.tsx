@@ -165,6 +165,25 @@ const Contact = () => {
                   </Button>
                 </CardContent>
               </Card>
+
+              {/* Partnership */}
+              <Card className="shadow-lg bg-farm-yellow/5">
+                <CardHeader>
+                  <CardTitle className="text-xl text-farm-green">Partner with Us</CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-gray-600 mb-4">
+                    Interested in technology partnerships or collaboration opportunities? Let's explore how we can work together.
+                  </p>
+                  <Button 
+                    variant="outline" 
+                    className="border-farm-green text-farm-green hover:bg-farm-green hover:text-white"
+                    onClick={() => window.open("https://calendly.com/naturesgoldfarm/partnership", "_blank")}
+                  >
+                    Partner with Us
+                  </Button>
+                </CardContent>
+              </Card>
             </div>
           </div>
         </div>

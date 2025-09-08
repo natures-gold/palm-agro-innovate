@@ -6,13 +6,13 @@ const Navigation = () => {
       <div className="max-w-7xl mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           {/* Logo */}
-          <div className="flex items-center">
+          <a href="/" className="flex items-center hover:opacity-80 transition-opacity">
             <img 
               src="/lovable-uploads/4e05ac74-23e3-4e52-b875-7d33842d5061.png"
               alt="Nature's Gold Farm"
-              className="w-12 h-12 object-contain"
+              className="w-16 h-16 object-contain drop-shadow-md"
             />
-          </div>
+          </a>
 
           {/* Navigation Links */}
           <div className="hidden md:flex items-center space-x-8">
