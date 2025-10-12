@@ -52,14 +52,14 @@ const FutureSection = () => {
 
         {/* Timeline */}
         <div className="relative mb-16">
-          {/* Timeline Line - Centered on desktop, left on mobile */}
-          <div className="absolute left-4 md:left-1/2 md:transform md:-translate-x-1/2 w-1 h-full bg-gradient-primary rounded-full"></div>
+          {/* Timeline Line */}
+          <div className="absolute left-1/2 transform -translate-x-1/2 w-1 h-full bg-gradient-primary rounded-full"></div>
           
-          <div className="space-y-8 md:space-y-16">
+          <div className="space-y-16">
             {milestones.map((milestone, index) => (
-              <div key={index} className={`flex items-center md:${index % 2 === 0 ? 'flex-row' : 'flex-row-reverse'}`}>
+              <div key={index} className={`flex items-center ${index % 2 === 0 ? 'flex-row' : 'flex-row-reverse'}`}>
                 {/* Content Card */}
-                <div className="w-full md:w-5/12 ml-12 md:ml-0">
+                <div className="w-5/12">
                   <Card className="p-6 shadow-primary border-2 border-farm-green/20 hover:border-farm-green/40 transition-spring">
                     <CardContent className="p-0">
                       <div className="flex items-center justify-between mb-4">
@@ -85,13 +85,13 @@ const FutureSection = () => {
                   </Card>
                 </div>
 
-                {/* Timeline Dot - Positioned absolutely on mobile, in flow on desktop */}
-                <div className="absolute left-0 md:static md:w-2/12 md:flex md:justify-center">
+                {/* Timeline Dot */}
+                <div className="w-2/12 flex justify-center">
                   <div className="w-6 h-6 bg-farm-yellow rounded-full border-4 border-white shadow-lg"></div>
                 </div>
 
-                {/* Spacer - Only on desktop */}
-                <div className="hidden md:block md:w-5/12"></div>
+                {/* Spacer */}
+                <div className="w-5/12"></div>
               </div>
             ))}
           </div>
